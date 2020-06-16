@@ -32,11 +32,11 @@ browser.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight/%s" %
 time.sleep(0.7)
 browser.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight/%s" %4, element)
 time.sleep(0.7)
-browser.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight/%s" %3, element)
-time.sleep(0.7)
-browser.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight/%s" %2, element)
-time.sleep(0.7)
-browser.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight/%s" %1.3, element)
+# browser.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight/%s" %3, element)
+# time.sleep(0.7)
+# browser.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight/%s" %2, element)
+# time.sleep(0.7)
+# browser.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight/%s" %1.3, element)
 time.sleep(0.7)
 
 pers = []
